@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/*mobile*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+/*Estilos Generales*/
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #fbfbfb;
+    color:#0f0f0f;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+h2{
+    font-size: 28px;
+    text-align: center;
+}
+p{
+    margin: 20px 0px;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    padding: 16px;
+    background-color: #fbfbfb;
+    box-shadow: 0px 5px 10px -5px #fF0000;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+
+.logo {
+    width: 500px;
+}
+
+.menu {
+    display: flex;
+    font-size: 25px;
+}
+
+.menu li a {
+    padding: 16px;
+}
+
+/*section*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    min-height: 100vh;
+}
+
+#inicio {
+    justify-content: space-around;
+    
+}
+
+.celular-img img {
+    width: 400px; 
+    padding-top: 80px;
+}
+
+.presentacion {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-ctlgo {
+    background-color:#FA5858 ;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.redes {
+    width: 100%;
+    text-align: center;
+    background-color: #F78181;
+    border-radius: 20px;
+
+}
+
+.lista-redes {
+   display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 100px;
+   font-size: 30px;
+   
+   
+}
+
+
+/*Footer*/
+
+footer{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FA5858;
+    height: 90px;
+}
+
+.btn-ctlgo:hover, .active {
+    background-color: aqua;
+    transition: 0.5s;
+}
+
+/*Media queries*/
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 48px;
+        text-align: left;
+    }
+    #inicio {
+        flex-direction: row;
+    }
+
+    .presentacion {
+        text-align: left;
+        width: 50%;
+    }
+
+    .presentacion p {
+        text-align: left;
+    }
+}
+
+
+
