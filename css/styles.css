@@ -142,8 +142,12 @@ footer{
 }
 
 .btn-ctlgo:hover, .active {
-    background-color: aqua;
+    background-color: #e8c39e;
     transition: 0.5s;
+}
+
+.active{
+    background-color: #fF0000;
 }
 
 /*Media queries*/
@@ -152,6 +156,10 @@ footer{
     h1 {
         font-size: 48px;
         text-align: left;
+    }
+    h2 {
+        font-size: 32px;
+        
     }
     #inicio {
         flex-direction: row;
@@ -165,7 +173,15 @@ footer{
     .presentacion p {
         text-align: left;
     }
+
+    .redes {
+        
+        max-width: 800px;
+        
+    }
 }
+
+
 
 
 
