@@ -90,6 +90,7 @@ section {
     min-height: 100vh;
 }
 
+
 #inicio {
     justify-content: space-around;
     
@@ -121,13 +122,16 @@ section {
 
 }
 
+div {
+    margin-top: 100px;
+}
+
 .lista-redes {
    display: flex;
-   justify-content: space-evenly;
-   margin-bottom: 100px;
+   justify-content: space-between;
+   width: 300px;
    font-size: 30px;
-   
-   
+
 }
 
 
